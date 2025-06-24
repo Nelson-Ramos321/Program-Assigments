@@ -14,4 +14,7 @@ number_list.insert(3, 1000)
 
 
 books = {'Jeff Kinney': 'Diary of a wimpy kid', 'Dav Pilkey': 'Dog Man', 'Lincoln Peirce': 'Big Nate'}
-books.pop(list(book))
+print(books.pop(list(books.keys())[2])  
+print(books)
+del books[list(books.keys())[0]]
+print(books)
